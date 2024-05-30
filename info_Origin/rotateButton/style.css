@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+
+.container .buttons{
+    padding: 10px;
+    margin: auto;
+    
+}
+.container .buttons #red{
+    height: 50px;
+    width: 60px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 10px;
+    background-color: red;
+}
+
+.container .buttons #blue{
+    height: 50px;
+    width: 60px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 10px;
+    background-color: blue;
+}
+
+.container .buttons #yellow{
+    height: 50px;
+    width: 60px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    background-color: yellow;
+}
+
+.container .rotate{
+    position: absolute;
+    padding: 10px;
+    margin: auto;
+    left: 65px;
+   
+}
+
+.container .rotate #rotat{
+    height: 30px;
+    width: 50px;
+}

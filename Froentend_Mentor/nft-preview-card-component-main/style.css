@@ -1,0 +1,71 @@
+:root{
+    --txt-cyan: hsl(178, 100%, 50%);
+    --txt-blue: hsl(215, 51%, 70%);
+    --txt-white: hsl(0, 0%, 100%);
+    --bg-xblue: hsl(216, 50%, 16%);
+    --bg-xxblue: hsl(217, 54%, 11%);
+    --line-xblue: hsl(215, 32%, 27%);
+}
+
+html{
+    box-sizing: initial;
+    font-size: 100;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif, 'Kumbh Sans', sans-serif;
+    background-color: var(--bg-xxblue);
+}
+
+.card{
+    background: var(--bg-xblue);
+    border-radius: 0.5rem;
+    max-width: 22rem;
+}
+
+.card_image{
+    max-width: 18rem;
+    max-height: 16rem;
+}
+.card_image img{
+    width: 15rem;
+    height: 16rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    left: 5rem;
+}
+
+.card_text{
+    margin: 1rem;
+    max-width: 15rem;
+    font-size: 18px;
+    display: flex;
+}
+
+.card_text p{
+    font-weight: bold;
+}
+
+
+@media(min-width: 56em){
+    .card{
+        -webkit-flex-direction: column; 
+        flex-direction: column; 
+        float: left;
+        margin: 6rem;
+    }
+
+    .card_image,
+    .card_text{
+        flex: 1;
+    }
+}

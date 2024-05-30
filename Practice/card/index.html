@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Designs</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: grey;
+        }
+
+        .card{
+            background-color: white;
+            width: 220px;
+            height: 350px;
+            border-radius: 10px;
+        }
+
+        .image{
+            padding: 8px;
+        }
+
+        .image img{
+            border-radius: 10px;
+        }
+
+        .content{
+            padding: 3px;
+        }
+
+        .content h1{
+            font-size: 23px;
+            padding: 5px;
+        }
+
+        .content p{
+            font-size: 12px;
+            padding: 3px;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .capsules{
+            padding: 0 15px;
+        }
+        .capsules span{
+            border: 1px solid grey;
+            padding: 3px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .button{
+            text-align: center;
+            padding: 3px;
+        }
+
+        .button button{
+            padding: 6px 9px;
+            border-radius: 15px;
+            color: rgb(59, 123, 122);
+            background-color: rgb(177, 237, 235);
+            border: none;
+            font-weight: bold;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .button button:hover{
+            background-color: rgb(168, 220, 220);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="200" src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h1>Gauri</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, molestias consectetur doloribus tenetur veritatis quae quidem! A blanditiis perspiciatis accusantium?</p>
+        </div>
+        <div class="button">
+            <button>Read more</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.red{
+    margin: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.red .Red{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.change_red .Red{ 
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: red;
+}
+.change_red .Blue{
+    background-color: none;
+}
+.blue{
+    margin: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.blue .Blue{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.change_blue .Blue{ 
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: blue;
+}
+
+.yellow{
+    margin: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+.yellow .Yellow{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.change_yellow .Yellow{ 
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: yellow;
+}
